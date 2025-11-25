@@ -1,7 +1,7 @@
 # TUGAS2-PROJECT1-SUCI
 # LANGKAH 1
 # Membuat Direktori untuk 3 Departemen marketinng engineering hr beserta subfoldernya
-[GAMBAR](https://drive.google.com/file/d/19qBAuNQVcPNU87_zW2Tv7oOBQaIEIX1G/view?usp=sharing)
+(https://drive.google.com/file/d/19qBAuNQVcPNU87_zW2Tv7oOBQaIEIX1G/view?usp=sharing)
 ~~~
 #lubuntu@suci:~ mkdir -p marketing/documents marketing/archives
 ~~~
@@ -52,7 +52,8 @@ mv images/file11.jpg Marketing/documents
 mv images/file11.jpg Marketing/documents
 ~~~
 # Membuat backup di folder archives
-# GAMBAR
+https://drive.google.com/file/d/1i5aFQQcO1QE6JC_NhCigzCXjLwV5MfP3/view?usp=sharing
+
 ~~~
 cp -r marketing/Dokuments/marketing.docx marketing/Archives
 ~~~
@@ -63,16 +64,9 @@ cp -r engineering/documents/engineering.docx engineering/archives
 cp -r hr/documents/hr.docx hr/archives
 ~~~
 
-# Menampilkan isi folder marketing engineering hr
-# GAMBAR
-
-~~~
-tree
-~~~
-
 # LANGKAH 3
 # Permision/membatasi hak akses di setiap folder
-# GAMBAR
+https://drive.google.com/file/d/1i5aFQQcO1QE6JC_NhCigzCXjLwV5MfP3/view?usp=sharing
 
 ~~~
 sudo groupadd Marketing
@@ -85,7 +79,7 @@ sudo groupadd HR
 ~~~
 
 # Mengubah kepemilikan folder dan semua isi di dalamnya
-# GAMBAR
+https://drive.google.com/file/d/12p8vOVvhKgBVD3_lyX4dn81PqPwszwqB/view?usp=sharing
 
 ~~~
 sudo chgrp -r marketinng marketing
@@ -98,6 +92,7 @@ sudo chgrp -r hr hr
 ~~~
 
 # Mengatur izin permision folder
+https://drive.google.com/file/d/1o26I52KIE1WVA7SwpvU04REx0c3ffd9q/view?usp=sharing
 
 ~~~
 sudo chmod 770 Marketing
@@ -109,9 +104,9 @@ sudo chmod 770 Engineering
 sudo chmod 770 HR
 ~~~
 
-# LATIHAN 4
+# LANGKAH 4
 # Menampilkan file pdf -7 hari yang lalu
-# DEFINISI GAMBAR
+https://drive.google.com/file/d/1xrygBkUhrezeDyXsIKSdfHlNaI0uCGlN/view?usp=sharing
 
 ~~~
 find . -type f -name "*.pdf" -mtime -7
