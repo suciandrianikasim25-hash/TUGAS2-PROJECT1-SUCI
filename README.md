@@ -1,7 +1,7 @@
 # TUGAS2-PROJECT1-SUCI
 # LANGKAH 1
-# Membuat Direktori untuk 3 Departemen marketinng engineering hr  beserta subfoldernya
-GAMBAR
+# Membuat Direktori untuk 3 Departemen marketinng engineering hr beserta subfoldernya
+[GAMBAR](https://drive.google.com/file/d/19qBAuNQVcPNU87_zW2Tv7oOBQaIEIX1G/view?usp=sharing)
 ~~~
 #lubuntu@suci:~ mkdir -p marketing/documents marketing/archives
 ~~~
@@ -11,6 +11,10 @@ GAMBAR
 ~~~
 #lubuntu@suci:~ mkdir -p hr/documents hr/archives
 ~~~
+
+# Membuat subfolder di masing-masing direktori
+https://drive.google.com/file/d/1mtEC0HPjUca88aHkfY_kyQseYYsPReZR/view?usp=sharing
+
 ~~~
 #lubuntu@suci:~cd marketing
 #lubuntu@suci:~cd documents
@@ -35,9 +39,8 @@ GAMBAR
 ~~~
 
 # LANGKAH 2
-# Memindahkan file yang salah tempat ke direktori
-yang benar
-# GAMBAR
+# Memindahkan file yang salah tempat ke direktori yang benar
+https://drive.google.com/file/d/1hmor0EXH1_YKH7kBzuxio6brAvgv2UCZ/view?usp=sharing GAMBAR
 
 ~~~
 mv images/file11.jpg marketing/documents
